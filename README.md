@@ -8,11 +8,15 @@ An end-to-end analytics project that turns a raw global beauty e-commerce datase
 
 A global skincare & beauty e-store wanted to understand its multi-year performance: **how the business is performing year over year, which products actually make money, and which customers are worth keeping.**
 
-This project answers those questions across three analytical lenses — business health, product profitability, and customer value — delivered as a three-page interactive dashboard supported by a written findings summary. The emphasis is on turning raw transaction data into clear, defensible business insight, not just charts.
+This project answers those questions across three analytical lenses — business health, product profitability, and customer value — delivered as a three-page interactive dashboard supported by a written findings report. The emphasis is on turning raw transaction data into clear, defensible business insight, not just charts.
 
 ---
 
 ## Dashboard Preview
+
+📥 **[Download the Power BI file (.pbix)](https://drive.google.com/file/d/1OEsYXsfrM4WM9YGayfVtI8jyQRzE17Pw/view?usp=sharing)** — open in Power BI Desktop for the interactive version.
+
+📄 **[View the dashboard as PDF](beauty_dashboard.pdf)** — all three pages, no Power BI needed.
 
 **Page 1 — Overview** *(How is the business performing this year?)*
 ![Overview](beauty_overview.png)
@@ -77,7 +81,7 @@ This project answers those questions across three analytical lenses — business
 
 - **Profit concentrates in a few categories** — Face care (30.1% margin), Make up (25.1%), and Body care (16.8%) are healthy earners.
 - **Home & Accessories loses money overall** — the only category with a **negative margin (−4.60%)**, making it the primary drag on profitability.
-- **Discounting is the cause.** Average profit by discount band shows a clear cliff: orders at 0% discount earn +34 profit on average and 1–20% earn +15, but profit turns **negative beyond 20%** — falling to −14 (21–40%), −35 (41–60%), and −44 (61–80%). **Orders discounted above ~20% lose money on average.**
+- **Discounting is the cause.** Average profit by discount band shows a clear cliff: orders at 0% discount earn +34 profit on average and 1–20% earn +15, but profit turns **negative beyond 20%** — falling to −14 (21–40%), −35 (41–60%), and −44 (61–80%). **Orders discounted above ~20% lose money on average**, and the losses concentrate in Home & Accessories, where discounting is heaviest.
 - **561 products are loss-making**, up +130 year over year — the losses are spreading, not shrinking.
 
 ### Page 3 — Customer (Value, Retention, Geography, 2022 → 2023)
@@ -92,20 +96,25 @@ This project answers those questions across three analytical lenses — business
 ## Recommendations
 
 - **Cap discounts near 20%.** The data shows margin turns negative beyond that threshold; deep discounts are actively destroying profit and are the main driver of the year-over-year margin decline.
-- **Fix or reposition Home & Accessories** — the only loss-making category. Review its pricing and discount strategy before it drags overall profitability further.
+- **Fix or reposition Home & Accessories** — the only loss-making category and the one absorbing the heaviest discounting. Review its pricing and promotion strategy before it drags overall profitability further.
 - **Protect the Champions segment.** With ~51% of revenue concentrated in the top segment, targeted retention and loyalty investment here defends the majority of the business — and mitigates the concentration risk of depending on so few customers.
 - **Grow the profitable markets, not just the biggest ones.** Europe's superior margin makes it a better growth target than higher-volume, lower-margin Asia Pacific.
 - **Convert one-time buyers.** Repeat rate is rising but still low; win-back campaigns aimed at recently-lapsed high-value customers (visible in the Top Customers table) could lift retention.
 
 ---
 
+
+The Power BI file (`.pbix`) is hosted on Google Drive — see the download link above.
+
+---
+
 ## How to Run
 
-1. **Download the files** from this repository.
+1. **Download the files** from this repository, and the `.pbix` from the Google Drive link above.
 2. **Clean** — run the Python cleaning script to profile, validate, and export the cleaned data.
 3. **Load to PostgreSQL** — load the cleaned CSV and run the SQL scripts, including the RFM segmentation view.
 4. **Open the dashboard** — open the Power BI (`.pbix`) file in Power BI Desktop.
-5. **View the report** — the findings summary is included in the repository.
+5. **Read the findings** — see `FINDINGS.md` for the full written analysis.
 
 ---
 
