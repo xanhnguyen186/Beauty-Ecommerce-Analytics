@@ -14,7 +14,7 @@ This project answers those questions across three analytical lenses — business
 
 ## Dashboard Preview
 
-📥 **[Download the Power BI file (.pbix)](https://drive.google.com/file/d/1OEsYXsfrM4WM9YGayfVtI8jyQRzE17Pw/view?usp=sharing)** — open in Power BI Desktop for the interactive version.
+📥 **[Download the Power BI file (.pbix)](https://drive.google.com/file/d/1sDYKsbZpx2YGAfZSZCNRaL0z_MmV7Udj/view?usp=sharing)** — open in Power BI Desktop for the interactive version.
 
 📄 **[View the dashboard as PDF](beauty_dashboard1.pdf)** — all three pages, no Power BI needed.
 
