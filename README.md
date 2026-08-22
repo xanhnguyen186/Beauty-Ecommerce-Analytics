@@ -16,16 +16,16 @@ This project answers those questions across three analytical lenses — business
 
 📥 **[Download the Power BI file (.pbix)](https://drive.google.com/file/d/1OEsYXsfrM4WM9YGayfVtI8jyQRzE17Pw/view?usp=sharing)** — open in Power BI Desktop for the interactive version.
 
-📄 **[View the dashboard as PDF](beauty_dashboard.pdf)** — all three pages, no Power BI needed.
+📄 **[View the dashboard as PDF](beauty_dashboard1.pdf)** — all three pages, no Power BI needed.
 
 **Page 1 — Overview** *(How is the business performing this year?)*
-![Overview](beauty_overview.png)
+![Overview](beauty_overview1.png)
 
 **Page 2 — Product** *(What's making money & what's losing it?)*
-![Product](beauty_product.png)
+![Product](beauty_product1.png)
 
 **Page 3 — Customer** *(Which customers should we invest in keeping, and where are they?)*
-![Customer](beauty_customer.png)
+![Customer](beauty_customer1.png)
 
 ---
 
